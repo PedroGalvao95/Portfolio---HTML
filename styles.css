@@ -6,6 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    box-shadow: 0 10px 40px rgba(15, 14, 14, 0.1);
 }
 
 h1 {
@@ -15,6 +16,12 @@ h1 {
     color: #1e6f5c;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-display: swap; /* Melhora o desempenho do carregamento da fonte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao texto */
+    font-style: italic; /* Deixa o texto em itálico */
+    font-weight: 700; /* Aumenta o peso da fonte para torná-la mais ousada */
+    letter-spacing: 2px; /* Aumenta o espaçamento entre as letras */
+
 }
 
 h2 {
