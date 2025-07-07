@@ -150,8 +150,10 @@ label {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
     color: #1e6f5c;
-    margin-left: 370px;
+    margin-left: 0;      /* Remova o deslocamento para a direita */
     margin-top: 10px;
+    display: block;      /* Faz o label ocupar a largura total do container */
+    text-align: left;    /* Alinha o texto à esquerda */
 }
 
 input[type="text"],
@@ -181,6 +183,13 @@ input[type="submit"] {
     transition: background-color 0.3s, transform 0.2s;
     display: block;         /* Faz o botão ocupar uma linha inteira */
     margin: 20px auto;      /* Centraliza horizontalmente */
+}
+
+/* Novas classes para o formulário */
+.form-group {
+    max-width: 600px;
+    margin: 0 auto 20px auto; /* Centraliza o grupo na tela */
+    width: 100%;
 }
 
 /* Responsividade para telas menores */
