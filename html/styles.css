@@ -1,0 +1,184 @@
+#minha-foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 7em;
+    color: #1e6f5c;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    color: #1e6f5c;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: #1e6f5c;
+    margin-top: 20px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    color: #1e6f5c;
+    margin-top: 20px;
+}
+
+#perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+body {
+    background-color:rgb(216, 243, 234);
+}
+
+ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul {
+    background-color: #145244;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    display: flex;           /* Deixa os itens em linha */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.navbar li {
+    margin: 0 20px;          /* Espaçamento entre os itens */
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 20px 15px;
+    transition: background 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #1e6f5c;
+}
+
+.navbar-rodape ul {
+    background-color: #145244;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    display: flex;           /* Deixa os itens em linha */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.navbar-rodape li {
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.navbar-rodape a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 20px 15px;
+    transition: background 0.3s;
+}
+
+.navbar-rodape a:hover {
+    background-color: #1e6f5c;
+    border-radius: 5px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #1e6f5c;
+    margin: 20px 0;
+}
+
+.listas-lado-a-lado {
+    display: flex;
+    justify-content: center;
+    gap: 60px; /* Espaço entre as listas */
+    margin-top: 40px;
+}
+
+.listas-lado-a-lado > div {
+    min-width: 250px;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: #1e6f5c;
+    margin-bottom: 10px;
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: #1e6f5c;
+    margin-left: 370px;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: #1e6f5c;
+    padding: 5px;
+    border: 1px solid #1e6f5c;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    background-color: #1e6f5c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    display: block;         /* Faz o botão ocupar uma linha inteira */
+    margin: 20px auto;      /* Centraliza horizontalmente */
+}
